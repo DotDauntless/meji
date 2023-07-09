@@ -1,0 +1,46 @@
+#header {
+    background: linear-gradient(344deg, #FB964D 0%, #DB4617 100%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:101px;
+}
+
+.navbar-section {
+    display: flex;
+    gap: 40px; /* adjust this to set space between links/icons */
+    padding-right: 35px;
+    padding-left: 75px;
+}
+
+.nav-link {
+    color: #FFF;
+    text-align: center;
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-decoration: none;
+}
+
+.logo-container {
+    padding-top: 0px;
+}
+.logo {
+    width: 154px; /* adjust size as needed */
+    height: auto;
+    position: relative;
+    top: 52px; /* adjust this to lower logo on the navbar */
+    z-index: 1;
+}
+
+
+.navbar-icon {
+    width: 30px;
+    height: 30px;
+}

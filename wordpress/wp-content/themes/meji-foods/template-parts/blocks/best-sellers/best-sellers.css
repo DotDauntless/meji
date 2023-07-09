@@ -1,0 +1,19 @@
+.best-sellers {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; /* prevent the items from wrapping into multiple lines */
+}
+
+.best-sellers .seller {
+    position: relative;
+    width: 24%;
+    margin: 1%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.best-sellers .seller img {
+    width: 100%;
+}
