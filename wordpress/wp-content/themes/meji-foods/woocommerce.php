@@ -1,3 +1,2 @@
-<?php
-woocommerce_content();
-?>
+<p>hey</p>
+

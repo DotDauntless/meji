@@ -1,0 +1,35 @@
+footer#footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 20%; /* Adjust this as needed */
+    margin-bottom: 20px; /* Adjust this as needed */
+}
+
+.footer-section h4 {
+    margin-bottom: 10px; /* Adjust this as needed */
+}
+
+.footer-section p {
+    margin-bottom: 5px; /* Adjust this as needed */
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section input[type="email"] {
+    margin-bottom: 10px; /* Adjust this as needed */
+}
+
+.footer-section button[type="submit"] {
+    cursor: pointer;
+}

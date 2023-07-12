@@ -1,0 +1,44 @@
+.testimony-section {
+    display: flex;
+    justify-content: space-between; /* This will create space between each item */
+    flex-wrap: wrap; /* This allows the items to wrap to a new line on smaller screens */
+}
+
+.testimony-section .testimony-item {
+    width: 25%; /* This width will give you three items per row */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff; /* Adjust color according to your needs */
+    padding: 50px 20px; /* Adjust padding according to your needs */
+    box-sizing: border-box; /* This includes padding and border in the item's total width and height */
+}
+
+.testimony-section .testimony-item h4 {
+    margin-top: 0; /* Remove the top margin */
+}
+
+.testimony-section .testimony-item p {
+    margin-bottom: 0; /* Remove the bottom margin */
+}
+
+/* Center the text inside the .text div */
+.text  {
+    text-align: center;
+    padding-top: 40px;
+
+}
+.h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Be Vietnam;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.6%;
+    letter-spacing: 1.75px;
+}
+.testimony-wrapper{
+    background-color: #FF8125;
+    height: 550px;
+}

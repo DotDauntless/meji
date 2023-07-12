@@ -1,0 +1,10 @@
+2023-07-12T10:24:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/class-wp-list-util.php on line 116
+
+2023-07-12T10:25:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-includes/class-wp-hook.php on line 307
+
+2023-07-12T10:40:03+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php on line 342
+
+2023-07-12T11:02:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wp-content/plugins/advanced-custom-fields-pro/includes/fields.php on line 74
+
+2023-07-12T14:17:23+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /var/www/html/wp-content/themes/meji-foods/single.php on line 2
+

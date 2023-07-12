@@ -1,0 +1,22 @@
+2023-07-11T19:56:40+00:00 CRITICAL Unclosed '{' on line 36 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 161
+
+2023-07-11T19:56:41+00:00 CRITICAL Unclosed '{' on line 36 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 161
+
+2023-07-11T19:56:43+00:00 CRITICAL Unclosed '{' on line 36 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 161
+
+2023-07-11T19:57:02+00:00 CRITICAL Unclosed '{' on line 36 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 161
+
+2023-07-11T19:57:03+00:00 CRITICAL Unclosed '{' on line 36 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 161
+
+2023-07-11T19:57:54+00:00 CRITICAL Unclosed '{' on line 35 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 146
+
+2023-07-11T19:57:55+00:00 CRITICAL Unclosed '{' on line 35 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 146
+
+2023-07-11T19:57:58+00:00 CRITICAL Unclosed '{' on line 35 in /var/www/html/wp-content/themes/meji-foods/functions.php on line 146
+
+2023-07-11T20:28:22+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/themes/meji-foods/front-page.php on line 18
+
+2023-07-11T20:28:25+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/themes/meji-foods/front-page.php on line 18
+
+2023-07-11T20:28:48+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/themes/meji-foods/front-page.php on line 18
+

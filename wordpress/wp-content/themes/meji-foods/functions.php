@@ -106,7 +106,10 @@ function my_acf_add_local_field_groups() {
 }
 
 
-
+function mytheme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 
 
@@ -119,6 +122,7 @@ function zest_styles() {
     wp_enqueue_style('image_with_text-style', get_theme_file_uri('./css/front-page.css'));
     wp_enqueue_style('hero', get_theme_file_uri('./template-parts/blocks/hero/hero_section.css'));
     wp_enqueue_style('best-sellers', get_theme_file_uri('./template-parts/blocks/best-sellers/best-sellers.css'));
+    wp_enqueue_style('testimony', get_theme_file_uri('./template-parts/blocks/testimony/testimony.css'));
 
 }
 add_action( 'wp_enqueue_scripts', 'zest_styles' );

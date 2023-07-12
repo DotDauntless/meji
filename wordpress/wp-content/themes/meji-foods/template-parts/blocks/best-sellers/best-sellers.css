@@ -2,7 +2,8 @@
     background-color: white;
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap; /* prevent the items from wrapping into multiple lines */
+    flex-wrap: wrap;
+    padding-bottom: 10px;
 }
 
 .best-sellers .seller {
@@ -10,10 +11,30 @@
     width: 24%;
     margin: 1%;
     text-align: center;
+}
+
+.best-sellers .seller .seller-image {
+    width: 100%;
+    height: 300px; /* adjust this according to your needs */
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .best-sellers .seller img {
-    width: 100%;
+    width: 150%; /* adjust this according to your needs */
+}
+.best-sellers .seller .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 271px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #000;
+    color: #fff; /* adjust this color according to your needs */
+    text-decoration: none; /* remove underline from link */
 }
