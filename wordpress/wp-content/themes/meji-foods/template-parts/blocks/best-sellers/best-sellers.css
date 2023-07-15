@@ -24,7 +24,7 @@
 }
 
 .best-sellers .seller img {
-    width: 150%; /* adjust this according to your needs */
+    width: 135%; /* adjust this according to your needs */
 }
 .best-sellers .seller .button {
     display: flex;
@@ -37,4 +37,25 @@
     background: #000;
     color: #fff; /* adjust this color according to your needs */
     text-decoration: none; /* remove underline from link */
+}
+
+.text-title h2{
+    text-align: center;
+    color: #000;
+    font-family: Be Vietnam;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.15px;
+}
+.seller p{
+    color: #000;
+    text-align: center;
+    font-family: Be Vietnam;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.6%; /* 23.72px */
+    letter-spacing: 1.4px;
 }

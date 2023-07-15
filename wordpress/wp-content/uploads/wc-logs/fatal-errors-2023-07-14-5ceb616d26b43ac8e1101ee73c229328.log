@@ -1,0 +1,38 @@
+2023-07-14T18:31:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_about_us_url() in /var/www/html/wp-content/themes/meji-foods/header.php:12
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/meji-foods/front-page.php(2): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/meji-foods/header.php on line 12
+
+2023-07-14T18:31:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_about_us_url() in /var/www/html/wp-content/themes/meji-foods/header.php:12
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(783): require_once()
+#1 /var/www/html/wp-includes/template.php(718): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/meji-foods/front-page.php(2): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/meji-foods/header.php on line 12
+
+2023-07-14T21:42:57+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on string in /var/www/html/wp-content/plugins/woocommerce/templates/single-product/rating.php:28
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1645): wc_get_template('single-product/...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(308): woocommerce_template_single_rating('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/themes/meji-foods/woocommerce/single-product.php(41): do_action('woocommerce_sin...')
+#6 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/templates/single-product/rating.php on line 28
+

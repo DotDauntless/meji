@@ -123,6 +123,14 @@ function zest_styles() {
     wp_enqueue_style('hero', get_theme_file_uri('./template-parts/blocks/hero/hero_section.css'));
     wp_enqueue_style('best-sellers', get_theme_file_uri('./template-parts/blocks/best-sellers/best-sellers.css'));
     wp_enqueue_style('testimony', get_theme_file_uri('./template-parts/blocks/testimony/testimony.css'));
+    wp_enqueue_style('what-we-do', get_theme_file_uri('./template-parts/blocks/what-we-do/what-we-do.css'));
+    wp_enqueue_style('how-about-us', get_theme_file_uri('./template-parts/blocks/how-about-us/how-about-us.css'));
+    wp_enqueue_style('west-africa', get_theme_file_uri('./template-parts/blocks/west-africa/west-africa.css'));
+    wp_enqueue_style('contact-us-top', get_theme_file_uri('./template-parts/blocks/contact-us-top/contact-us-top.css'));
+    wp_enqueue_style('contact-us-form', get_theme_file_uri('./template-parts/blocks/contact-us-form/contact-us-form.css'));
+    wp_enqueue_style('single-product', get_theme_file_uri('./woocommerce/single-product.css'));
+
+
 
 }
 add_action( 'wp_enqueue_scripts', 'zest_styles' );

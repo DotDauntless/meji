@@ -1,0 +1,74 @@
+body.single-product {
+    background: linear-gradient(135deg, #FB964D 0%, #FFCBA6 100%);
+}
+
+body.single-product .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* This centers everything horizontally */
+    align-items: flex-start; /* This aligns everything to the top vertically */
+}
+
+body.single-product .product .images {
+    position: relative;
+    margin-right: 10%; /* You can adjust this to move the images more to the center */
+    transform: scale(1.2); /* Adjusts the size of the image */
+}
+
+body.single-product .product .images:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/Rectangle-28.png');
+    z-index: -1;
+}
+
+body.single-product .product .summary {
+    width: 40%; /* You can adjust this to move the text more to the center */
+}
+
+body.single-product .product .summary .product_title {
+    margin-bottom: 1em; /* Add space between title and description */
+}
+
+body.single-product .product .summary .quantity,
+body.single-product .product .summary .single_add_to_cart_button {
+    margin-top: 1em; /* Add space between description and quantity/add to cart button */
+}
+
+.woocommerce .woocommerce-breadcrumb {
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: .92em;
+    color: #767676;
+    display: none;
+}
+
+.woocommerce span.onsale {
+    display: none;
+}
+
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    display: none;
+}
+
+.product_meta{
+    display: none;
+}
+
+.summary.entry-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.summary.entry-summary h1,
+.summary.entry-summary .price,
+.summary.entry-summary .cart {
+    width: 100%;
+}
+

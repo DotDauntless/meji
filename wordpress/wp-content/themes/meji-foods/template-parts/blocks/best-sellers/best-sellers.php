@@ -1,6 +1,8 @@
+<div class="text-title">
+    <h2>OUR BEST SELLERS</h2>
 
+</div>
 <section class="best-sellers">
-
 
         <section class="best-sellers">
             <?php

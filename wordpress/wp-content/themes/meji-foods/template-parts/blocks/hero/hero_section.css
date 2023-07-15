@@ -21,8 +21,12 @@
 
 .svg-container {
     position: absolute;
-    bottom: -4px;
+    bottom: -14px;
     width: 100%;
     height: auto;
+}
+
+.svg-container svg{
+    max-width: 100%;
 }
 

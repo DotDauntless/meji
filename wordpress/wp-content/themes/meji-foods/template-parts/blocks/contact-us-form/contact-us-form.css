@@ -1,0 +1,113 @@
+.contact-us-form-wrapper {
+    background: linear-gradient(135deg, #7D2C21 0%, #FB964D 100%);
+    color: white;
+    padding: 20px;
+}
+
+.contact-us-form-wrapper h1{
+    color: #FFF;
+    font-family: Be Vietnam;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90.023%; /* 81.02px */
+
+}
+.contact-us-form-wrapper h2{
+    color: #FFF;
+    font-family: Be Vietnam;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.023%; /* 45.011px */
+
+}
+.contact-us-form-wrapper h4 {
+    color: #FFF;
+    font-family: Be Vietnam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.023%; /* 22.506px */
+}
+
+.contact-us-form-wrapper p{
+    color: #FFF;
+    font-family: Be Vietnam;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90.023%; /* 22.506px */
+
+}
+
+.contact-us-form-text {
+    float: left;
+    max-width: 30%;
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-top: 30px
+}
+
+.contact-us-form-content {
+    float: right;
+    max-width: 60%;
+}
+
+.contact-us-form-content .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-us-form-content .form-control {
+    background: #DCAA87;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px; /* Adjust this as needed */
+    margin: 5px 0; /* Add margin to top and bottom */
+}
+
+.contact-us-form-content .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us-form-content .form-row .form-group {
+    flex: 1;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+
+.contact-us-form-content .form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+/* Clear float */
+.contact-us-form-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.spacing{
+    padding-top: 10px;
+
+}
+.form-group h4{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 90.023%; /* 22.506px */
+    opacity: 0.800000011920929;
+}
+
+.form-group button{
+    border-radius: 10px;
+    background: #FB964D;
+    width: 101.502px;
+    height: 38.695px;
+    flex-shrink: 0;
+}
